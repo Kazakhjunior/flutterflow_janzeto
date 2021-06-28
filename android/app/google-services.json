@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "223596761035",
+    "project_id": "janzetto",
+    "storage_bucket": "janzetto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223596761035:android:e9d793c4faa187a217b04e",
+        "android_client_info": {
+          "package_name": "com.flutterflow.janzetto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223596761035-pt87ivr4a4it0k6b4ecmmsjqcankgqrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzAQABL6Zrdz2Be2-3hTj2fi5jWwW82Ko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223596761035-pt87ivr4a4it0k6b4ecmmsjqcankgqrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
