@@ -28,6 +28,9 @@ abstract class UsersRecord implements Built<UsersRecord, UsersRecordBuilder> {
   DateTime get createdTime;
 
   @nullable
+  String get password;
+
+  @nullable
   @BuiltValueField(wireName: 'phone_number')
   String get phoneNumber;
 
@@ -40,6 +43,7 @@ abstract class UsersRecord implements Built<UsersRecord, UsersRecordBuilder> {
     ..displayName = ''
     ..photoUrl = ''
     ..uid = ''
+    ..password = ''
     ..phoneNumber = '';
 
   static CollectionReference get collection =>
@@ -65,6 +69,7 @@ Map<String, dynamic> createUsersRecordData({
   String photoUrl,
   String uid,
   DateTime createdTime,
+  String password,
   String phoneNumber,
 }) =>
     serializers.toFirestore(
@@ -75,4 +80,5 @@ Map<String, dynamic> createUsersRecordData({
           ..photoUrl = photoUrl
           ..uid = uid
           ..createdTime = createdTime
+          ..password = password
           ..phoneNumber = phoneNumber));

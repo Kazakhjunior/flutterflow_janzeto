@@ -131,6 +131,8 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                             color: Color(0xFF455A64),
                                             fontWeight: FontWeight.normal,
                                           ),
+                                          keyboardType:
+                                              TextInputType.emailAddress,
                                           validator: (val) {
                                             if (val.isEmpty) {
                                               return 'Field is required';
@@ -207,6 +209,8 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                             color: Color(0xFF455A64),
                                             fontWeight: FontWeight.normal,
                                           ),
+                                          keyboardType:
+                                              TextInputType.visiblePassword,
                                           validator: (val) {
                                             if (val.isEmpty) {
                                               return 'Field is required';
